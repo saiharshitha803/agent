@@ -1,1 +1,90 @@
-<iframe src="https://app.relevanceai.com/agents/f1db6c/9be090cd-c5e5-40c7-b932-a8a2e7542530/c5005ca0-1a99-43a3-af24-5cf1b5a75094/embed-chat?hide_tool_steps=true&hide_file_uploads=false&hide_conversation_list=false&bubble_style=agent&primary_color=%23fb37d7&bubble_icon=pd%2Fchat&input_placeholder_text=Type+your+message...&hide_logo=false&hide_description=false" width="100%" height="100%" frameborder="0" allow="microphone"></iframe>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Copilot Launchpad</title>
+   <style>
+    /* 1. Basic Reset & Font */
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f7f9; /* Light, cool background */
+        color: #333;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    /* 2. Main Container */
+    .container {
+        width: 95%;
+        max-width: 1200px; /* Max width for large screens */
+        padding: 20px;
+        text-align: center;
+    }
+
+    /* 3. Header Styling */
+    header {
+        padding: 20px 0;
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        color: #FF00FF; /* PRIMARY ACCENT COLOR - Changed to your pink! */
+        font-size: 2.5em;
+        margin-bottom: 5px;
+    }
+
+    /* 4. Iframe Container - The cool part */
+    .copilot-container {
+        background-color: #ffffff; /* White background for the frame */
+        border-radius: 12px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Subtle 3D effect */
+        overflow: hidden; /* Ensures iframe respects border-radius */
+        width: 100%;
+        height: 80vh; /* Set a good starting height */
+        min-height: 600px;
+        border: 2px solid #FF00FF; /* ACCENT BORDER - Changed to your pink! */
+    }
+
+    /* 5. The Iframe itself */
+    .copilot-container iframe {
+        width: 100%;
+        height: 100%;
+        border: none; /* Remove default border */
+        display: block;
+    }
+
+    /* 6. Footer/Context */
+    .context-info {
+        margin-top: 30px;
+        font-size: 0.9em;
+        color: #6c757d;
+    }
+
+</style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Your Sales Intelligence Copilot</h1>
+            <p>Powered by Relevance AI. Ask me anything about your data.</p>
+        </header>
+
+        <main class="copilot-container">
+            <iframe 
+                <iframe src="https://app.relevanceai.com/agents/f1db6c/9be090cd-c5e5-40c7-b932-a8a2e7542530/c5005ca0-1a99-43a3-af24-5cf1b5a75094/embed-chat?hide_tool_steps=true&hide_file_uploads=false&hide_conversation_list=false&bubble_style=agent&primary_color=%23fb37d7&bubble_icon=pd%2Fchat&input_placeholder_text=Type+your+message...&hide_logo=false&hide_description=false" width="100%" height="100%" frameborder="0" allow="microphone"></iframe>
+            ></iframe>
+        </main>
+
+        <div class="context-info">
+            <p>For help or support, contact the Sales Enablement Team.</p>
+        </div>
+    </div>
+
+</body>
+</html>
